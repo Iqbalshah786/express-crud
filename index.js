@@ -1,12 +1,17 @@
 import express from "express";
+import "dotenv/config";
 
 const app = express();
 
-const port = 3000;
+const port = process.env.PORT || 3000;
 app.use(express.json());
 
 let teaData = [];
 let nextId = 1;
+
+app.get("/", (req, res) => {
+  res.send("Welcome to tea shop");
+});
 
 // add a new tea
 app.post("/teas", (req, res) => {
