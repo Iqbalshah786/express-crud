@@ -19,7 +19,7 @@ This is a simple CRUD API for managing a collection of teas. It allows you to cr
 
 ## Documentation
 
-For detailed API documentation, please visit our [Postman collection documentation](https://documenter.getpostman.com/view/32127733/2sA3XTdzKW).
+For detailed API documentation, please visit my [Postman collection documentation](https://documenter.getpostman.com/view/32127733/2sA3XTdzKW).
 
 ## Getting Started
 
