@@ -29,3 +29,11 @@ To get started with the API, clone the repository and install the dependencies:
 git clone https://github.com/yourusername/tea-crud-api.git
 cd tea-crud-api
 npm install
+```
+
+Then, you can run the server:
+```sh
+npm start
+```
+
+The API will be available at *http://localhost:3000.*
